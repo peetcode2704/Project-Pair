@@ -75,3 +75,9 @@ For each pivot point, the algorithm:
 ## Author
 
 **Peter Hoang** — CSC 4180: Operating Systems, Spring 2026
+
+##Collaborators
+
+**Jessica Tran**
+
+**Rawshan Sinde**

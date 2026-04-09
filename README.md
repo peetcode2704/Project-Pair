@@ -76,7 +76,7 @@ For each pivot point, the algorithm:
 
 **Peter Hoang** — CSC 4180: Operating Systems, Spring 2026
 
-##Collaborators
+## Collaborators
 
 **Jessica Tran**
 

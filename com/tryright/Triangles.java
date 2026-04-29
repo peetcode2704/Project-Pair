@@ -229,15 +229,18 @@ public class Triangles {
 
     /**
      * Computes the greatest common divisor of two non-negative integers
-     * using the Euclidean algorithm. Returns 1 if both are zero.
+     * using the Euclidean algorithm. Returns 0 if both are zero, following
+     * the standard mathematical convention that gcd(0, 0) = 0.
      *
      * @param a first non-negative integer
      * @param b second non-negative integer
-     * @return the greatest common divisor
+     * @return the greatest common divisor, or 0 if both inputs are 0
      */
     private static int gcd(int a, int b) {
+        // gcd(0, 0) = 0 by convention; every integer divides 0 so there is no
+        // largest divisor, and 0 is the standard identity for this edge case.
         if (a == 0)
-            return (b == 0) ? 1 : b;
+            return (b == 0) ? 0 : b;
         if (b == 0)
             return a;
         while (b != 0) {

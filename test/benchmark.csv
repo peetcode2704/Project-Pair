@@ -1,0 +1,13 @@
+mode,workers,real_seconds
+process,1,3.847
+process,2,1.98
+process,4,1.214
+process,8,1.174
+process,16,1.82
+process,32,3.278
+thread,1,3.571
+thread,2,2.033
+thread,4,1.164
+thread,8,0.761
+thread,16,0.976
+thread,32,1.151

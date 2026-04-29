@@ -1,5 +1,10 @@
 package com.tryright;
-import java.io.*;
+
+// Explicit imports preferred over java.io.* to make dependencies clear at a glance.
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 
 /**
  * Reads and prints points from a binary .dat file.

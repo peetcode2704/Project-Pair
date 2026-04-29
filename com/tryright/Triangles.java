@@ -9,7 +9,9 @@ A triangle is considered a right triangle if the dot product of two vectors shar
 package com.tryright;
 
 import java.io.IOException;
-import java.util.*;
+// Explicit imports preferred over java.util.* to make dependencies clear at a glance.
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Counts right triangles from a set of 2D points using a PointStore

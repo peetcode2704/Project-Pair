@@ -1,6 +1,11 @@
 package com.tryright;
 
-import java.io.*;
+// Explicit imports preferred over java.io.* to make dependencies clear at a glance.
+import java.io.BufferedOutputStream;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
